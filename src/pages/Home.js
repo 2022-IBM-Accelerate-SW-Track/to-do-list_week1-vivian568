@@ -33,7 +33,7 @@ class Home extends Component {
         <h1>Todo's </h1>
 
         <Todos todos={this.state.todos} />
-        <hr>/</hr>
+        <hr></hr>
         <AddToDo addTodo={this.addTodo} />
       </div>
     );
